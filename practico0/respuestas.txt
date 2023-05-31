@@ -1,0 +1,14 @@
+## Practico N0 - Respuestas
+
+1.a - Respuesta: el resultado de la resta es 8.
+1.b - Respuesta: el resultado de la multiplicación es 204.
+
+2.a - Respuesta: el area del rectangulo es de 15 cm2.
+2.b - Respuesta: el area del rectangulo es de 66.25 cm2.
+
+3.a - Respuesta: el resultado es de 10° C.
+3.b - Respuesta: el resultado es de 23.8888888888888° C.
+
+4.a - Respuesta: el promedio es 7.
+4.b - Respuesta: el promedio es -4.333333333333333.
+4.c - Respuesta: el promedio es 0.266666666666666.
