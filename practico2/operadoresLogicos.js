@@ -1,12 +1,11 @@
 const readlineSync = require('readline-sync');
 const numero = parseInt(readlineSync.question('Ingrese un numero entero: '));
 
-if (numero > 0 && numero % 2 === 0) {
-  console.log('El numero es positivo y par')
-} else if (numero > 0 && numero % 2 !== 0) {
-  console.log('El numero es positivo e impar');
-} else if (numero < 0) {
-  console.log('El numero en negativo');
+if (isNaN(numero)) {
+  console.log('Número inválido');
 } else {
-  console.log('El numero es 0');
+  numero > 0 && numero % 2 === 0 && console.log('El número es positivo y par')
+    || numero > 0 && numero % 2 !== 0 && console.log('El número es positivo e impar')
+    || numero < 0 && console.log('El número en negativo')
+    || numero === 0 && console.log('El número es 0');
 }

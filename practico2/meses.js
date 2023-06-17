@@ -63,12 +63,12 @@ const meses = [
   },
 ];
 
-const consultar = readlineSync.question('Ingrese un numero entero entre 1 y 12: ');
+const numero = readlineSync.question('Ingrese un numero entero entre 1 y 12: ');
 
-if (isNaN(consultar) || Number(consultar) < 1 || Number(consultar) > 12) {
-  console.log('Ha ingresado un numero incorrecto, debe ingresar un numero entero entre 1 y 12.');
+if (isNaN(numero) || Number(numero) < 1 || Number(numero) > 12) {
+  console.log('Ha ingresado un número incorrecto, debe ingresar un número entero entre 1 y 12.');
 } else {
   meses.map(item => {
-    consultar === item.id && console.log(`La cantidad de dias del mes de ${item.nombre} es ${item.cantidadDeDias}`);
+    numero === item.id && console.log(`La cantidad de días del mes de ${item.nombre} es ${item.cantidadDeDias}`);
   })
 }

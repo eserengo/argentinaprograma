@@ -1,5 +1,5 @@
 const readlineSync = require('readline-sync');
-const numero = parseInt(readlineSync.question('Ingrese un numero entero entre 1 y 7: '));
+const numero = parseInt(readlineSync.question('Ingrese un numero del 1 al 7 representando un dia de la semana: '));
 
 switch (numero) {
   case 1:
